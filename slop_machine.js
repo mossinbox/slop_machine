@@ -120,7 +120,6 @@ function buildWindowContent() {
         } else {
             for (var i = 0; i < scripts.length; i++) {
                 var scriptFile = scripts[i];
-                var scriptName = scriptFile.name.replace(/\.(jsx|js)$/i, "");
 
                 var scriptSectionGrp = win.add("group");
                 scriptSectionGrp.orientation = "column";
