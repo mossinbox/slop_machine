@@ -19,7 +19,7 @@
 
             endTime = Math.ceil(endTime * 100 + 100) / 100;
 
-            var text = match[10].replace(/\n/g, " ").trim();
+            var text = match[10].replace(/\n/g, " ").replace(/\s+$/,'');
 
             result.push({
                 text: text,
